@@ -9,6 +9,7 @@ function Nav(props) {
 		},
 		{ name: "portraits", description: "Portraits of people in my life" },
 		{ name: "food", description: "Delicious delicacies" },
+		{ name: "gallery", description: "all the pictures" },
 		{
 			name: "landscape",
 			description: "Fields, farmhouses, waterfalls, and the beauty of nature",
