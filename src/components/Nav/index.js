@@ -1,19 +1,9 @@
 import React from "react";
-
+// import coverImage from "../../assets/images/hero.png";
 function Nav(props) {
 	const categories = [
-		{
-			name: "commercial",
-			description:
-				"Photos of grocery stores, food trucks, and other commercial projects",
-		},
-		{ name: "portraits", description: "Portraits of people in my life" },
-		{ name: "food", description: "Delicious delicacies" },
-		{ name: "gallery", description: "all the pictures" },
-		{
-			name: "landscape",
-			description: "Fields, farmhouses, waterfalls, and the beauty of nature",
-		},
+		{ name: "Resume", description: "work experience" },
+		{ name: "Portfolio", description: "my web dev work" },
 	];
 
 	console.log("NAV BAR PROPS!!!", props);
@@ -21,11 +11,10 @@ function Nav(props) {
 		<header>
 			<h2>
 				<a href="/">
-					<span role="img" aria-label="camera">
+					<span role="img" aria-label="coverimage">
 						{" "}
-						📸
 					</span>{" "}
-					Oh Snap!
+					K. Redford
 				</a>
 			</h2>
 			<nav>
