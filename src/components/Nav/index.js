@@ -1,10 +1,10 @@
 import React from "react";
 // import coverImage from "../../assets/images/hero.png";
 function Nav(props) {
-	const categories = [
-		{ name: "Resume", description: "work experience" },
-		{ name: "Portfolio", description: "my web dev work" },
-	];
+	// const categories = [
+	// 	{ name: "Resume", description: "work experience" },
+	// 	{ name: "Portfolio", description: "my web dev work" },
+	// ];
 
 	console.log("NAV BAR PROPS!!!", props);
 	return (
