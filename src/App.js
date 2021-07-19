@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import Gallery from "./components/Gallery";
+// import Gallery from "./components/Gallery";
 import CurrentPage from "./components/CurrentPage";
 import Nav from "./components/Nav";
 import "./App.css";
