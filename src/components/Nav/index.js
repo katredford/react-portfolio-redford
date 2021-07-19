@@ -37,7 +37,26 @@ function Nav(props) {
 							Contact
 						</span>
 					</li>
-					{categories.map((category) => (
+					<li>
+						<span
+							onClick={() => {
+								props.setCurrentPage("resume");
+							}}
+						>
+							Resume
+						</span>
+					</li>
+					<li>
+						<span
+							onClick={() => {
+								props.setCurrentPage("portfolio");
+							}}
+						>
+							Portfolio
+						</span>
+					</li>
+
+					{/* {categories.map((category) => (
 						<li className="mx-1" key={category.name}>
 							<span
 								onClick={() => {
@@ -47,7 +66,7 @@ function Nav(props) {
 								{category.name}
 							</span>
 						</li>
-					))}
+					))} */}
 				</ul>
 			</nav>
 		</header>
