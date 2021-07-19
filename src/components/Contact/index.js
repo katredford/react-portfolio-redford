@@ -8,6 +8,11 @@ function Contact() {
 	});
 	const { name, email, message } = formState;
 
+	function handleSubmit(e) {
+		e.preventDefault();
+		console.log(formState);
+	}
+
 	function handleChange(e) {
 		setFormState({ ...formState, [e.target.name]: e.target.value });
 	}
@@ -17,7 +22,7 @@ function Contact() {
 	return (
 		<section>
 			<h1>Contact me</h1>
-			<form id="contact-form">
+			<form id="contact-form" onSubmit={handleSubmit}>
 				<div>
 					<label htmlFor="name">Name:</label>
 					<input
@@ -47,7 +52,7 @@ function Contact() {
 						rows="5"
 					/>
 				</div>
-				<form id="contact-form" onSubmit={handleSubmit}></form>
+
 				<button type="submit">Submit</button>
 			</form>
 		</section>
