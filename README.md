@@ -18,7 +18,7 @@ see all my work, about me, my resume and contact me!
 
 ### Deployed Application:
 
-https://katredford.github.io/react-portfolio-redford/
+https://react-portfolio-katie.herokuapp.com/
 
 ### GitHub Repo:
 
