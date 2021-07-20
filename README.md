@@ -1,31 +1,44 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br>
+New portfolio of work using react!
+<br>
+<br><br>
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+see all my work, about me, my resume and contact me!
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- _jsx_
+- _CSS_
+- _Javascript_
+- _React_
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Deployed Application:
 
-### `npm test`
+https://katredford.github.io/react-portfolio-redford/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### GitHub Repo:
 
-### `npm run build`
+https://github.com/katredford/react-portfolio-redford
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h3 align="center" width="100%">
+ <br>About</br>
+<p align="center" width="100%">
+    <img src="about.png" width="60%"/>
+</p>
+Portfolio
+<p align="center" width="100%">
+    <img src="portfolio.png" width="60%"/>
+</p>
+Contact
+<p align="center" width="100%">
+    <img src="contact.png" width="60%"/>
+</p>
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
