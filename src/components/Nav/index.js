@@ -31,12 +31,13 @@ function Nav(props) {
 					<li>
 						<span
 							onClick={() => {
-								props.setCurrentPage("contact");
+								props.setCurrentPage("portfolio");
 							}}
 						>
-							Contact
+							Portfolio
 						</span>
 					</li>
+
 					<li>
 						<span
 							onClick={() => {
@@ -49,10 +50,10 @@ function Nav(props) {
 					<li>
 						<span
 							onClick={() => {
-								props.setCurrentPage("portfolio");
+								props.setCurrentPage("contact");
 							}}
 						>
-							Portfolio
+							Contact
 						</span>
 					</li>
 
