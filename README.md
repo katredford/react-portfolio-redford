@@ -1,3 +1,46 @@
+# React Portfolio
+
+<br>
+New portfolio of work using react!
+<br>
+<br><br>
+
+## Description
+
+see all my work, about me, my resume and contact me!
+
+## Built With
+
+- _jsx_
+- _CSS_
+- _Javascript_
+- _React_
+
+### Deployed Application:
+
+https://katredford.github.io/react-portfolio-redford/
+
+### GitHub Repo:
+
+https://github.com/katredford/react-portfolio-redford
+
+## Screenshots
+
+<h3 align="center" width="100%">
+ <br>About</br>
+<p align="center" width="100%">
+    <img src="about.png" width="60%"/>
+</p>
+Portfolio
+<p align="center" width="100%">
+    <img src="portfolio.png" width="60%"/>
+</p>
+Contact
+<p align="center" width="100%">
+    <img src="contact.png" width="60%"/>
+</p>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
